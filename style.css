@@ -368,7 +368,7 @@ html body{
     bottom: -50%;
     left: -5%;
 }
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 200px) and (max-width: 1300px) {
 
     
     .links{
@@ -426,6 +426,7 @@ html body{
 
 /* -------------------------Projects section---------- */
 .projects{
+    /* width: 100%; */
     position: relative; 
     margin-top: 14%;
     background-color: #E7E7E7;
@@ -447,9 +448,10 @@ html body{
 
 
 .project_container{
-    width: 80%;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 0.3rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -624,21 +626,22 @@ html body{
     background-image: url("./public/Projects/my-gallery.png");
 }
 
-@media (min-width: 0px) and (max-width: 1200px){
+@media (min-width: 200px) and (max-width: 1300px){
+
 
     .project_container{
-        width: 100%;
-        padding: 5px;
-        margin: 10px;
         gap: 60px;
     }
 
     .card{
-        height: 300px;
+        height: 350px;
         width: 100%;
         background-size: cover;
         background-position: center;
     }
+
+    
+
 
     .project-content {
         scale: 0.5;
@@ -655,12 +658,7 @@ html body{
 
 
 
-  
-    
-    .card::before{
-        content: "";
-        display: none;
-    }
+
 
     .card-pos-left{
         left: 0;
@@ -692,7 +690,7 @@ html body{
     }
 
     .card:hover .project-content{
-        transform: none;
+        scale: 0.55;
     }
     
 }
