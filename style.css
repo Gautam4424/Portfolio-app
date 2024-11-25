@@ -689,8 +689,14 @@ html body{
         display: none;
     }
 
+    .project-skills-container{
+        width: 100%;
+    }
+
     .card:hover .project-content{
         scale: 0.55;
     }
+
+
     
 }
