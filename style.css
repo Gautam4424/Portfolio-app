@@ -574,12 +574,13 @@ html body{
     width: 50%;
     display: flex;
     flex-wrap: wrap;
-    gap:2%
+    gap:2%;
    
 
 }
 .project-skills-container img{
     height: 3rem;
+    margin-top: 10px;
 }
 
 .card-heading{
@@ -690,7 +691,7 @@ html body{
     }
 
     .project-skills-container{
-        width: 100%;
+        width: 70%;
     }
 
     .card:hover .project-content{
