@@ -556,10 +556,12 @@ html body{
 }
 
 .project-content-left{
+    top:22%;
     left: 10%;
 }
 
 .project-content-right{
+    top:22%;
     right: 6%;
 }
 
