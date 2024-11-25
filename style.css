@@ -629,6 +629,10 @@ html body{
     background-image: url("./public/Projects/my-gallery.png");
 }
 
+
+#project3{
+    background-image: url("./public/Projects/portfolio.png");
+}
 @media (min-width: 200px) and (max-width: 1300px){
 
 
@@ -639,8 +643,9 @@ html body{
     .card{
         height: 350px;
         width: 100%;
-        background-size: cover;
+        background-size: contain;
         background-position: center;
+        background-repeat: no-repeat
     }
 
     
