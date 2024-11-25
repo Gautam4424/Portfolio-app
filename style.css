@@ -643,10 +643,12 @@
         .card{
             height: 350px;
             width: 100%;
-            background-size: contain;
+            background-size: cover;
+            background-repeat: no-repeat;
             background-position: center;
-            background-repeat: no-repeat
+            /* background-size:100%;    */
         }
+
 
         
 
