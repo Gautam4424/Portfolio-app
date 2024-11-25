@@ -26,7 +26,7 @@ html body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    width:90%;
     margin: 0px auto;
     /* height: 10vh; */
 }
@@ -35,6 +35,8 @@ html body{
 .logo{
     display: flex;
     /* padding: 0 2rem; */
+    justify-content: space-around;
+    align-items: center;
 }
 .logo h1{
     font-size: 2.1rem;
@@ -84,12 +86,12 @@ html body{
 .hero{
 
     position: relative;
-    width: 80%;
-    height: 70vh;
+    width: 90%;
+    /* height: 70vh; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap:2rem 5%;
 
     /* border: 2px solid black; */
@@ -220,6 +222,7 @@ html body{
 
 .user-image img{
     z-index: -1;
+
 }
 
 @keyframes scaleImage{
@@ -358,17 +361,73 @@ html body{
 /* --------------------faded name text--------------- */
 .faded-text{
     position: absolute;
+    
     user-select: none;
-    font-size: 5rem;
+    font-size: 6rem;
     color: rgba(231,231,231);
-    bottom: -35%;
-    left: -7%;
+    bottom: -50%;
+    left: -5%;
+}
+@media (min-width: 0px) and (max-width: 1200px) {
+
+    
+    .links{
+        display: none;
+    }
+
+
+    .hero{
+        width: 80%;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+        gap: -1em;
+    }
+
+    .hero-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .faded-text{
+        display: none;
+    }
+
+
+    
+
+  
+
+    .hero-right{
+        width: 80%;
+        /* border: 2px solid rebeccapurple; */
+    }
+
+    .user-image{
+        
+        height: 100%;
+        width: 100%;
+        /* margin: 0 auto; */
+    }
+
+
+
+    /* .dots{
+
+        right: 1rem;
+    } */
+
+
+   
 }
 
 
 /* -------------------------Projects section---------- */
 .projects{
-    margin-top : 10rem;
+    position: relative; 
+    margin-top: 14%;
     background-color: #E7E7E7;
     flex-direction: column;
     display: flex;
@@ -378,6 +437,7 @@ html body{
 
 .project_heading{
     font-size: 3.2rem;
+    top: 13rem;
     padding: 50px;
     color: red;
     font-family: var(--custom_font);
@@ -387,7 +447,7 @@ html body{
 
 
 .project_container{
-    width: 1200px;
+    width: 80%;
     margin: 0 auto;
     padding: 2rem;
     display: flex;
@@ -557,8 +617,54 @@ html body{
 
 #project1{
     background-image: url("./public/Projects/parallax_project.png");
+    object-fit: cover;
 }
 
 #project2{
     background-image: url("./public/Projects/my-gallery.png");
+}
+
+@media (min-width: 0px) and (max-width: 1200px){
+
+    .project_container{
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* .card{
+        width: 100%;
+    } */
+    
+    .card::before{
+        content: "";
+        display: none;
+    }
+
+    .card-pos-left{
+        left: 0;
+    }
+    
+    
+    .card-pos-right{
+        right:0;
+    }
+
+    .project-content-left{
+        left: 10%;
+        top:17%
+    }
+    
+    .project-content-right{
+        right: 6%;
+        top:17%
+    }
+
+    .project-num{
+        display: none;
+    }
+
+    .card:hover .project-content{
+        transform: none;
+    }
+    
 }
