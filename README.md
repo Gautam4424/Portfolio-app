@@ -1,6 +1,6 @@
 # Portfolio-app🌐 Portfolio Website (HTML, CSS, Responsive Design)
 
-This is my personal portfolio website, built from scratch using HTML and CSS. 💻 I focused on creating a fully responsive design to ensure that the website is optimized for both desktop and mobile devices, providing a seamless experience for visitors. 📱💻 The website showcases my skills, projects, and experience in the world of web development. 🚀
+This is my personal portfolio website, built from scratch using HTML , CSS and javascript. 💻 I focused on creating a fully responsive design to ensure that the website is optimized for both desktop and mobile devices, providing a seamless experience for visitors. 📱💻 The website showcases my skills, projects, and experience in the world of web development. 🚀
 
 The project was a significant milestone for me, as it involved not only front-end development but also the deployment process. The site has been deployed under the domain techgs.tech 🌟, which marks a proud moment in my development journey. 🎉
 
