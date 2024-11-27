@@ -633,80 +633,204 @@
     #project3{
         background-image: url("./public/Projects/portfolio.png");
     }
-    @media (min-width: 200px) and (max-width: 1300px){
+@media (min-width: 200px) and (max-width: 1300px){
 
 
-        .project_container{
-            gap: 60px;
-        }
-
-        .card{
-            height: 350px;
-            width: 100%;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            /* background-size:100%;    */
-        }
-
-
-        
-
-
-        .project-content {
-            transform: scale(0.5);
-            bottom: 0;
-            left: 0;
-            right: 0;
-            top: 0;
-        }
-
-        .card-heading {
-            font-size: 40px;
-            width: 100%;
-        }
-
-
-
-
-
-        .card-pos-left{
-            left: 0;
-        }
-        
-        
-        .card-pos-right{
-            right:0;
-        }
-
-
-        .project-content{
-            width: 80%;
-            font-size: 10%;
-            gap: 20px;
-            justify-content: center;
-            /* align-items: center; */
-        }
-        .project-content-left{
-            top:17%
-        }
-        
-        .project-content-right{
-            top:17%
-        }
-
-        .project-num{
-            display: none;
-        }
-
-        .project-skills-container{
-            width: 100%;
-        }
-
-        .card:hover .project-content{
-            scale: 0.55;
-        }
-
-
-        
+    .project_container{
+        gap: 60px;
     }
+
+    .card{
+        height: 350px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-size:100%;    */
+    }
+
+
+    
+
+
+    .project-content {
+        transform: scale(0.5);
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    .card-heading {
+        font-size: 40px;
+        width: 100%;
+    }
+
+
+
+
+
+    .card-pos-left{
+        left: 0;
+    }
+    
+    
+    .card-pos-right{
+        right:0;
+    }
+
+
+    .project-content{
+        width: 80%;
+        font-size: 10%;
+        gap: 20px;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .project-content-left{
+        top:17%
+    }
+    
+    .project-content-right{
+        top:17%
+    }
+
+    .project-num{
+        display: none;
+    }
+
+    .project-skills-container{
+        width: 100%;
+    }
+
+    .card:hover .project-content{
+        scale: 0.55;
+    }
+
+
+    
+}
+
+
+/* ----------------------------------Tech Stack-------------------------------- */
+
+.tech-stack{
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+.tech-stack-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    align-content: center;
+    gap:15px;
+    padding: 5rem;
+    width: 50%;
+
+}
+
+
+
+.tech-stack-heading{
+    font-size: 4rem;
+    font-family: var(--custom_font);
+    /* font-style: italic; */
+    color: #E84949;
+}
+
+
+
+.tech-stack-left p{
+    font-size: 1rem;
+    font-family: var(--custom_font);
+}
+
+.tech-stack-right{
+    position: relative;
+    /* border: 2px solid red; */
+    width: 40%;
+    /* height: ; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.blob{
+    animation: blob 5s linear infinite;
+}
+
+@keyframes blob{
+    0%{
+        transform: translateY(0) translateY(0);
+    }
+
+    50%{
+        transform: translateX(-50px) translateY(30px);
+
+    }
+}
+
+.logos{
+
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+    top:-4rem
+
+}
+
+
+.tech-stack-logo{
+    height: 5rem;
+    left: 1px;
+}
+
+.tech-stack-logo:hover{
+    transition: all 0.5s;
+    transform: scale(1.2);
+}
+
+@media (max-width:1300px){
+    .tech-stack{
+        flex-direction: column;
+    }
+
+    .tech-stack-left{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .tech-stack-right{
+        width: 100%;
+        margin-top: 2rem;
+       
+    }
+
+
+    .logos{
+        /* gap:2px; */
+        top: 2%;
+    }
+
+    /* .tech-stack-logo{
+        transform: scale(0.7);
+    } */
+    .tech-stack-logo{
+        height: 3em;
+        left: 1px;
+    }
+
+
+
+}
+
+
+/* ----------------------------------------Contact ME form ------------------------------ */
