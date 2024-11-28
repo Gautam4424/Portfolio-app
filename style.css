@@ -905,7 +905,7 @@
 }
 
 .send-message-bttn::before{
-    background-color: yellow;
+    /* background-color: yellow; */
     border-radius: 10px;
     color: black;
 
