@@ -966,6 +966,11 @@
     text-decoration: none;
 }
 
+.fttr-links ul li a:hover{
+    /* text-decoration: underline; */
+    border-bottom: 2px solid white;
+}
+
 @media (max-width:1300px) {
     .fttr-links ul{
         width: 100%;
