@@ -899,9 +899,9 @@
 .send-message-bttn{
     border-radius: 10px;
     border: none;
-    bottom: 1rem;
-    text-align: center;
-    padding: 1rem  0.2rem;
+    bottom: 0.6rem;
+    /* text-align: center; */
+    /* padding: 1rem  0.2rem; */
 }
 
 .send-message-bttn::before{
