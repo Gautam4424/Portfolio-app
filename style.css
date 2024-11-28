@@ -896,7 +896,7 @@
 
 }
 
-.send-message-bttn{
+/* .send-message-bttn{
     border-radius: 10px;
     border: none;
     bottom: 1rem;
@@ -910,7 +910,7 @@
     color: black;
 
     
-}
+} */
 
 
 @media (max-width:1300px) {
