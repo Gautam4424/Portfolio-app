@@ -715,7 +715,7 @@
 /* ----------------------------------Tech Stack-------------------------------- */
 
 .tech-stack{
-    height: 100vh;
+    /* height: 100vh; */
     width: 90%;
     display: flex;
     justify-content: space-around;
@@ -834,3 +834,147 @@
 
 
 /* ----------------------------------------Contact ME form ------------------------------ */
+
+.contact-us{
+    position: relative; 
+    margin-top: 10%;
+    background-color: #E7E7E7;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:3rem;
+}
+
+.headings{
+    width: 80%;
+    margin-top: 4rem;
+   
+}
+
+.contact-us-heading{
+    color: #E84949;
+    font-size: 5rem;
+    font-family: var(--custom_font);
+}
+
+.contact-us-sub-heading{
+    color: #707692;
+    font-size: 3rem;
+    font-family: var(--custom_font);
+}
+
+.form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 3rem; */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.form input{
+    width: 80%;
+    padding: 1rem 3rem ;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    font-family: var(--custom_font);
+}
+
+.form textarea{
+    width: 80%;
+    height: 14rem;
+    padding: 1rem 3rem ;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    font-family: var(--custom_font);
+    resize: none;
+
+}
+
+.send-message-bttn{
+    border-radius: 10px;
+    border: none;
+    bottom: 1rem;
+}
+
+.send-message-bttn::before{
+  
+    border-radius: 10px;
+    color: black;
+
+    
+}
+
+
+@media (max-width:1300px) {
+
+
+    .headings{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+
+    .contact-us-heading{
+        font-size: 3rem;
+    }
+
+    .contact-us-sub-heading{
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    .form{
+        width: 100%;
+    }
+}
+
+.footer{
+    background-color: #343D68;
+    color: white;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fttr-links ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    font-size: 1.8rem;
+    
+
+}
+
+.fttr-links ul li{
+    list-style: none;
+}
+
+.fttr-links ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width:1300px) {
+    .fttr-links ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        font-size: 1.3rem;
+        
+    
+    }
+    
+}
+
+
